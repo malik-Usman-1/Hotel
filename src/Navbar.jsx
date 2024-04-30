@@ -16,7 +16,7 @@ export default function Navbar() {
 
     const handleInputChange = (e) => {
         setSearchText(e.target.value);
-        
+
         setshowinp(true);
     };
 
@@ -35,7 +35,7 @@ export default function Navbar() {
                     <div className=' hidden  lg:flex justify-center items-center'>
                         <ul className='h-full  text-white flex justify-center items-center gap-8 text-lg'>
                             <li>Home</li>
-                            <li>About</li>
+                            <li>About us</li>
                             <li>Contact</li>
                         </ul>
                     </div>
